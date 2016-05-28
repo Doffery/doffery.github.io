@@ -1,47 +1,74 @@
-# Built with Jekyll 3.2.0
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://example.com" # the base hostname & protocol for your site
 
-# Setup
-title:               Ed.
-tagline:             'A Jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://elotroalex.github.io'
-baseurl:             '/ed'
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: Type Theme
+  avatar: avatar.png
+  gravatar: # Email MD5 hash
+  description: "A website with blog posts and pages" # used by search engines
 
-# About/contact
-author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  # Header and footer text
+  header_text: >
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-# Permalinks
+     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
-permalink: pretty
-permalink: /:title/
+  # Icons
+  rss: false
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "rohanchandra/type-theme"
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "twitter"
+  wordpress:
+  youtube:
 
-# Set encoding to UTF-8
-encoding: utf-8
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
 
-# Collections for texts
-collections:
-  texts:
-    output: true
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
 
-# Markdown specs
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
 markdown: kramdown
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  footnote_backlink: "&#x21a9;&#xfe0e;"
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Custom vars
-version:             0.0.6
-
-# Exclusions from the final site
-exclude: [optional, vendor]
-
-
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
