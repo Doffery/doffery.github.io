@@ -1,14 +1,17 @@
-# Type Theme
+# Skinny Bones Jekyll Starter
 
-![Default Type Theme blog](https://cloud.githubusercontent.com/assets/816965/5142407/19742e48-71d6-11e4-8d9d-fdfe010784f0.png)
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
-A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
+I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
 
-## Get Started
+![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
 
-[Demo](https://rohanchandra.github.io/type-theme/)
+---
 
-[Using Type](https://rohanchandra.github.io/project/type/)
+## Notable Features
 
-## License
-The MIT License (MIT)
+* Jekyll 3.x and GitHub Pages compatible.
+* Stylesheet built using Sass.
+* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
+* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
+* And more.
