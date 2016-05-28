@@ -4,7 +4,7 @@ title: Simplest
 description: "A free Jekyll theme for download"
 keywords: "Jekyll, theme, free, download, SEO, blog, web"
 url: http://nandomoreira.me
-baseurl: "/simplest"
+baseurl: ""
 # baseurl: null
 
 google_analytics: UA-52446115-1
@@ -20,7 +20,6 @@ paginate: 4
 paginate_path: "/page/:num/"
 comments: true
 
-source: source
 destination: _site
 
 # Sass configuration
