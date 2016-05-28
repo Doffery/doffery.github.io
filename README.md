@@ -1,17 +1,46 @@
-# Skinny Bones Jekyll Starter
+# simplest
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+Simple Jekyll theme
 
-I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
+> :warning:
+  This theme requires ruby and rubygems installed
 
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+* [x] Clean layout
+* [x] Resposive layout
+* [x] Preprocessor SASS
+* [x] HTML minified
+* [x] CSS minified
+* [x] No Javascript
+* [x] Pagination
+* [x] Syntax highlight
+* [x] Author config
+* [x] Comments with Disqus
+* [x] Share posts
 
 ---
 
-## Notable Features
+### Start in 4 steps
 
-* Jekyll 3.x and GitHub Pages compatible.
-* Stylesheet built using Sass.
-* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
-* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
-* And more.
+1. Download or clone repo `git clone git@github.com:nandomoreirame/simplest.git`
+2. Enter the folder: `cd simplest/`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `jekyll serve`
+
+Access, [localhost:4000/simplest](http://localhost:4000/simplest)
+
+---
+
+### Demo and Download
+
+[Demo](http://nandomoreira.me/simplest/)
+[Download](https://github.com/nandomoreirame/simplest/archive/master.zip)
+
+![simplest - free Jekyll theme](/screenshot.png)
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+Enjoy :yum:
