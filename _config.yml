@@ -1,47 +1,60 @@
-# Built with Jekyll 3.2.0
 
-# Setup
-title:               Ed.
-tagline:             'A Jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://elotroalex.github.io'
-baseurl:             '/ed'
+# SEO settings
+title: Simplest
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+url: http://nandomoreira.me
+baseurl: "/simplest"
+# baseurl: null
 
-# About/contact
+google_analytics: UA-52446115-1
+repo: http://github.com/nandomoreirame/simplest
+disqus_shortname: "fernandomoreira"
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+paginate: 4
+paginate_path: "/page/:num/"
+comments: true
+
+source: source
+destination: _site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name     : Fernando Moreira
+  job      : Frontend Engineer
+  bio      : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  thumb    : /images/author.jpg
+  email    : nandomoreira.me@gmail.com
+  url      : http://nandomoreira.me
+  github   : http://github.com/nandomoreirame
+  twitter  : http://twitter.com/nandomoreirame
+  facebook : http://facebook.com/fernando.dev
+  linkedin : http://linkedin.com/in/nandomoreirame
 
-# Permalinks
+# social settings
+og_locale: "pt_BR"
+twitter_card: "summary_large_image"
+twitter_site: "@nandomoreirame"
 
-permalink: pretty
-permalink: /:title/
+gems:
+  - bourbon
+  - jekyll-paginate
 
-# Set encoding to UTF-8
-encoding: utf-8
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
 
-# Collections for texts
-collections:
-  texts:
-    output: true
-
-# Markdown specs
-markdown: kramdown
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  footnote_backlink: "&#x21a9;&#xfe0e;"
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Custom vars
-version:             0.0.6
-
-# Exclusions from the final site
-exclude: [optional, vendor]
-
-
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
