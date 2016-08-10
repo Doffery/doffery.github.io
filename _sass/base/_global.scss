@@ -77,9 +77,10 @@ code,
 kbd,
 pre,
 samp {
-  margin: 1em 1em;
+  margin: 1em 0;
 }
 code {
+  margin-left: 2em;
   font-size: 0.8em;
 }
 dt {
