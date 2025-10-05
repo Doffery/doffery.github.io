@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://doffery.github.io" # the base hostname & protocol for your site
+url: "https://doffery.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -13,13 +13,13 @@ theme:
   # Header and footer text
   header_text: >
      <p>如果连自己喜欢的东西都没能深入了解，也不去琢磨，平时就这么浑浑噩噩度过...</p>
-  header_text_feature_image:
+  
   footer_text: >
    Support By Doffery
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "your_email@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -40,8 +40,8 @@ theme:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "your_tracking_id"
+  disqus_shortname: your_disqus_shortname
   katex: true # Enable if using math markup
 
   # Localization strings
